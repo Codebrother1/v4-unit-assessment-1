@@ -3,6 +3,29 @@
   height: 25vh;
   background-color: #d55d7b;
 }
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+  color: black;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
 .main-content {
   width: 100%;
   border: 5px dotted black;
