@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "Git is a free and open source distributed version control system."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = `GitHub is a code hosting platform for version control and collaboration.`
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,6 +34,10 @@
 */
 
 //CODE HERE
+const init ={
+    description:"creates a new local repository",
+    code:"git init"
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +46,10 @@
 */
 
 //CODE HERE
+const clone = {
+    description:"downloads a project and its entire version history",
+    code:"git clone githuburl"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +58,10 @@
 */
 
 //CODE HERE
+const status = {
+    description:"lists all new or modified files to be commited",
+    code:"git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +70,10 @@
 */
 
 //CODE HERE
+const add = {
+    description:"snapshots the file in preparation for versioning",
+    code:"git add ."
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +82,10 @@
 */
 
 //CODE HERE
+const commit = {
+    description:"records file snapshot permanently in version history",
+    code:"git commit -m this is initial commit"
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +94,10 @@
 */
 
 //CODE HERE
+const addRemote = {
+    description:"List the remote connections you have to other repositories.",
+    code:"git remote add origin"
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +106,7 @@
 */
 
 //CODE HERE
+const push = {
+    description:"uploads all local branch commits to Github",
+    code:"git push"
+}
