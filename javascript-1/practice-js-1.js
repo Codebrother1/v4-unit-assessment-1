@@ -190,6 +190,9 @@ let secondFunctionScope = ['global','functional']
 */
 
 //CODE HERE
+function firstItem(array, cb){
+cb(array[0])
+}
 
 //////////////////PROBLEM 16////////////////////
 /* 
