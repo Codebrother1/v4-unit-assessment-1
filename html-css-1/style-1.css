@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  height: 25vh;
+  background-color: #d55d7b;
+}
+.main-content {
+  width: 100%;
+  border: 5px dotted black;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+.main-content-2 {
+  width: 100%;
+  border: 5px dotted black;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
